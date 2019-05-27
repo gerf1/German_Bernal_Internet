@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 1000px;
+    font: 32pt sans-serif;
+}
+
+header img {
+    position: absolute;
+ 
+    width: 110px;
+    height: 110px
+}
+
+
+h1 {
+    padding: 35px 0 0 110px;
+    font-size: 35pt;
+    color:#606060;
+}
+
+h2 {
+    color: white;
+    background: #5c83a9;
+    background: linear-gradient(#356599, #5c83a8, #356599);
+    padding: 10px 18px;
+    font-size: 22pt;
+
+}
+span.internet_blue{
+color:#3660ab;
+}
+
+#main {
+    background: #e4e4e4;
+    background: linear-gradient(#e3e3e3, #FFF, #FFF, #FFF);
+    width: 1000px;
+    font-size: 12pt;
+}
+
+#sidebar {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 5px 0 5px;
+    margin-right: 60px;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+#sidebar-top {
+    border-bottom: 1px solid darkgrey;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    vertical-align: top;
+}
+
+#sidebar-top p {
+    padding: 4px 0;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+
+#sidebar-top h4 {
+    margin-bottom: 10px;
+    font-size: 13pt;
+    padding-bottom:1px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+span.red {
+    color: red;
+}
+
+.blue-button, .orange-button {
+    width: 180px;
+    font-size: 12pt;
+    border-radius: 5px;
+    padding: 10px 0;
+    color: #FFF;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px darkgrey;
+    margin-bottom: 5px;
+    margin-left: 9px;
+}
+
+.blue-button {
+    background: #5381ae;
+}
+
+.orange-button {
+    background: #e19541;
+}
+
+#sidebar-bottom {
+    background-image: url("img/ad_background.png");
+    color: white;
+    font-size: 18pt;
+    text-align: center;
+    padding: 20px 0 30px 0;
+    box-shadow: 2px 2px 2px darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#sidebar-bottom img {
+    width: 100px;
+}
+
+.learnmore-btn {
+    background: #6ec7dc;
+    background: linear-gradient(#8ccedd, #4eb9d5);
+    border-radius: 5px;
+    padding: 5px 35px;
+    font-size: 12pt;
+    color: #FFF;
+}
+
+span.learnmore-one, span.learnmore-two, span.learnmore-three {
+    font-size: 7pt;
+  
+}
+
+
+
+span.learnmore-one {
+    color: #93d9e8;
+}
+
+span.learnmore-two {
+    color: #c6ebf3;
+}
+
+span.learnmore-three {
+    color: #f3fbfc;
+}
+
+span.blue {
+    color: #4545F2;
+}
+
+
+
+#content {
+    width: 720px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    font-size: 10pt;
+}
+
+#line {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #8c8b8b;
+    margin-bottom: 10px;
+}
+
+#dns {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    padding-top: 15px;
+    font-size: 12pt;
+    color :#2A2A8D;
+
+}
+
+#dns a { 
+text-decoration: none
+ }
+
+#dns img {
+    width: 20px;
+}
+#top-right{
+    display: inline-block;
+    margin-left:290px;
+}
+#top-right img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+
+}
+#numbers{
+    display: inline-block;
+}
+.small-num{
+    color: #595959;
+    font-size: 12px;
+}
+#big-number{
+    color: #00c0df;
+    font-size: 22px
+}
+
+}
+
+#maincontent {
+    width: 730px;
+}
+
+h3 {
+    color: #346599;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#maincontent ol, #maincontent ul {
+    padding-left: 50px;
+}
+
+li, #maincontent p {
+    margin-top: 10px;
+    font-size: 11pt;
+
+}
+
+#maincontent img {
+    width: 250px;
+    margin: 10px auto;
+    display: block;
+}
+
+#technologies {
+    margin: 20px 10px 0 0;
+    border: 3px #3185d9 solid;
+    box-shadow: 2px 2px 2px grey;
+    padding: 10px;
+}
+
+#technologies img {
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+#text {
+    display: inline-block;
+    width: 570px;
+    vertical-align: top;
+}
+
+#text p {
+    font-size: 13pt;
+}
+
+#maincontent a {
+    color: #1FB6D4;
+    text-decoration: none;
+    font-weight: bold;
+}
